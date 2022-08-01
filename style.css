@@ -9,23 +9,24 @@
 body {
     min-height: 100vh;
     min-width: 290px;
-    color: black;
-    background-color: #ffffff;
     font-family: 'Sarala', sans-serif;
     line-height: 1.5;
+    color: black;
+    background-color: #ffffff;
 }
 
 .container {
-    background-color: lightgray;
     margin: 5px;
     border-radius: 5px;
+    background-color: lightgray;
 }
+
+/* HEADER */
 
 header {
     position: fixed;
     width: 300px;
-    min-height: 100vh;
-    border-right: 3px solid white;
+    /* min-height: 100vh; */
 
 }
 
@@ -69,9 +70,12 @@ nav a {
     cursor: pointer;
 }
 
+/* MAIN */
+
 main {
-    margin-left: 310px;
+    margin-left: 300px;
     padding: 20px;
+    border-left: 3px solid white;
 }
 
 section h2 {
@@ -107,4 +111,26 @@ code {
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    header {
+        position: absolute;
+        width: 100%;
+    }
+
+    nav ul {
+        border-bottom: 5px solid white;
+    }
+
+    main {
+        margin: 0;
+        padding-top: 730px;
+    }
+
+
+
+
 }
