@@ -26,7 +26,7 @@ body {
 header {
     position: fixed;
     width: 300px;
-    /* min-height: 100vh; */
+    max-height: 100vh;
 
 }
 
@@ -115,10 +115,17 @@ code {
 
 /* MEDIA QUERIES */
 
+@media (max-height: 695px) {
+    header {
+        overflow-y: scroll;
+    }
+}
+
 @media (max-width: 768px) {
     header {
         position: absolute;
         width: 100%;
+
     }
 
     nav ul {
@@ -127,7 +134,7 @@ code {
 
     main {
         margin: 0;
-        padding-top: 730px;
+        padding-top: 330px;
     }
 
 
