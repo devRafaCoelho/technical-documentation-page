@@ -100,12 +100,17 @@ article li {
     margin: 15px 0px 0px 20px;
 }
 
+article a {
+    color: white;
+}
+
+article a:visited {
+    color: #9e76cf;
+}
+
 code {
     display: block;
-    text-align: left;
     white-space: pre-line;
-    word-break: normal;
-    word-wrap: normal;
     line-height: 2;
     background-color: #f7f7f7;
     padding: 15px;
@@ -125,19 +130,13 @@ code {
     header {
         position: absolute;
         width: 100%;
-
-    }
-
-    nav ul {
-        border-bottom: 5px solid white;
+        height: 250px;
+        overflow-y: scroll;
+        border-bottom: 3px solid white;
     }
 
     main {
         margin: 0;
-        padding-top: 330px;
+        padding-top: 260px;
     }
-
-
-
-
 }
