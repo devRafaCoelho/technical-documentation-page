@@ -1,7 +1,7 @@
 # technical-documentation-page
  This page is a literature referring to the JavaScript language
 
- > :construction: Projeto em construção :construction:
+ > :construction: Project under construction :construction:
 
  #Screenshots
 
