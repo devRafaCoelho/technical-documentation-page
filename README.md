@@ -5,4 +5,3 @@
 
  #Screenshots
 
- ![Project thumbnail](./thumbnail.png)
